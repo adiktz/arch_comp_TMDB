@@ -1,8 +1,8 @@
-package com.showoffs.tmdb.adapter.dashboard
+package com.showoffs.tmdb.view.adapter.dashboard
 
 import com.showoffs.tmdb.R
-import com.showoffs.tmdb.adapter.BaseAdapter
-import com.showoffs.tmdb.adapter.ViewHolder
+import com.showoffs.tmdb.view.adapter.BaseAdapter
+import com.showoffs.tmdb.view.adapter.ViewHolder
 import com.showoffs.tmdb.domain.Movie
 import kotlinx.android.synthetic.main.movie_item.view.*
 

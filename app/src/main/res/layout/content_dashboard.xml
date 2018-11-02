@@ -8,7 +8,7 @@
         android:id="@+id/container"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:showIn="@layout/activity_dashboard"
-        tools:context="com.showoffs.tmdb.ui.dashboard.Dashboard">
+        tools:context=".view.ui.dashboard.Dashboard">
 
     <TextView
             android:layout_width="wrap_content"

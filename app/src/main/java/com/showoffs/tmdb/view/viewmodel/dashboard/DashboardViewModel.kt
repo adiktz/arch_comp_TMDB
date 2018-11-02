@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.ui.dashboard
+package com.showoffs.tmdb.view.viewmodel.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

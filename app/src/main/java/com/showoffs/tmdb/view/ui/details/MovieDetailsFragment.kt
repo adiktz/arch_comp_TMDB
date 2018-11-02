@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.ui.details
+package com.showoffs.tmdb.view.ui.details
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -11,6 +11,8 @@ import androidx.lifecycle.Observer
 
 import com.showoffs.tmdb.R
 import com.showoffs.tmdb.common.logTag
+import com.showoffs.tmdb.view.viewmodel.moviedetails.MovieDetailsViewModeFactory
+import com.showoffs.tmdb.view.viewmodel.moviedetails.MovieDetailsViewModel
 import kotlinx.android.synthetic.main.movie_details_fragment.*
 
 class MovieDetailsFragment : Fragment() {

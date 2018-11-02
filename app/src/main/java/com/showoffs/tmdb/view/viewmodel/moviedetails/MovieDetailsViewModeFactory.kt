@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.ui.details
+package com.showoffs.tmdb.view.viewmodel.moviedetails
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

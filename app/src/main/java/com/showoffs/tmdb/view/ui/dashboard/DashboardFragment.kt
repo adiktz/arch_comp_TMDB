@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.ui.dashboard
+package com.showoffs.tmdb.view.ui.dashboard
 
 
 import android.content.Intent
@@ -15,11 +15,12 @@ import android.view.ViewGroup
 import com.showoffs.tmdb.R
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.showoffs.tmdb.adapter.dashboard.MoviesAdapter
+import com.showoffs.tmdb.view.adapter.dashboard.MoviesAdapter
 import com.showoffs.tmdb.common.logTag
 import com.showoffs.tmdb.domain.Movie
 import com.showoffs.tmdb.repository.utils.Status
-import com.showoffs.tmdb.ui.details.MovieDetails
+import com.showoffs.tmdb.view.ui.details.MovieDetails
+import com.showoffs.tmdb.view.viewmodel.dashboard.DashboardViewModel
 import kotlinx.android.synthetic.main.fragment_dashboard.*
 
 

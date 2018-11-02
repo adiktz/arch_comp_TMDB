@@ -1,7 +1,6 @@
-package com.showoffs.tmdb.ui.details
+package com.showoffs.tmdb.view.ui.details
 
 import android.os.Bundle
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity;
 import com.showoffs.tmdb.R
 import com.showoffs.tmdb.common.replace

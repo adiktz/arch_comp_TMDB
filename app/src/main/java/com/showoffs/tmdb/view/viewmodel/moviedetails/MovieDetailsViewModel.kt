@@ -1,10 +1,8 @@
-package com.showoffs.tmdb.ui.details
+package com.showoffs.tmdb.view.viewmodel.moviedetails
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.facebook.soloader.SoLoader.init
-import com.google.gson.JsonObject
 import com.showoffs.tmdb.domain.moviedetails.MovieDetailsResponse
 import com.showoffs.tmdb.repository.moviedetails.MovieDetailsRepo
 import com.showoffs.tmdb.repository.utils.Resource

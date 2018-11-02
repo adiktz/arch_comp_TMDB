@@ -2,7 +2,7 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context="com.showoffs.tmdb.ui.dashboard.DashboardFragment">
+                tools:context=".view.ui.dashboard.DashboardFragment">
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/movieRecycler"

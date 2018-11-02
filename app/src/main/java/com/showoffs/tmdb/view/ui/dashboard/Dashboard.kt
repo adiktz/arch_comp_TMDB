@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.ui.dashboard
+package com.showoffs.tmdb.view.ui.dashboard
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

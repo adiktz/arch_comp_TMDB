@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.showoffs.tmdb.ui.dashboard.Dashboard">
+        tools:context=".view.ui.dashboard.Dashboard">
 
     <com.google.android.material.appbar.AppBarLayout
             android:layout_height="wrap_content"
@@ -27,6 +27,6 @@
             android:id="@+id/container"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
             tools:showIn="@layout/activity_dashboard"
-            tools:context="com.showoffs.tmdb.ui.dashboard.Dashboard"/>
+            tools:context=".view.ui.dashboard.Dashboard"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
