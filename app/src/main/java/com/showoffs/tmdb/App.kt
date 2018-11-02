@@ -11,12 +11,6 @@ import com.facebook.drawee.backends.pipeline.Fresco
 
 class App : Application() {
 
-    private val TAG = "MovieDBApplication"
-
-    companion object {
-        var apiKey: String = ""
-    }
-
     override fun onCreate() {
         super.onCreate()
         Fresco.initialize(this)

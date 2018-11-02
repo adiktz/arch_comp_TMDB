@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.repository
+package com.showoffs.tmdb.repository.utils
 
 /*
  * Copyright (C) Fitternity - All Rights Reserved

@@ -1,4 +1,4 @@
-package com.showoffs.tmdb.repository
+package com.showoffs.tmdb.repository.utils
 
 import androidx.annotation.MainThread
 import androidx.annotation.WorkerThread

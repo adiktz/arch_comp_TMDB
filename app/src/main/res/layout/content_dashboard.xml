@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:id="@+id/container"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:showIn="@layout/activity_dashboar"
+        tools:showIn="@layout/activity_dashboard"
         tools:context="com.showoffs.tmdb.ui.dashboard.Dashboard">
 
     <TextView

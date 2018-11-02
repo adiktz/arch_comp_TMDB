@@ -5,9 +5,11 @@ import androidx.lifecycle.LiveData
 import com.showoffs.testapplication.util.LiveDataCallAdapterFactory
 import com.showoffs.tmdb.BuildConfig
 import com.showoffs.tmdb.common.Constants
-import com.showoffs.tmdb.repository.ApiResponse
-import com.showoffs.tmdb.repository.NetworkBoundResource
-import com.showoffs.tmdb.repository.Resource
+import com.showoffs.tmdb.repository.utils.ApiResponse
+import com.showoffs.tmdb.repository.utils.NetworkBoundResource
+import com.showoffs.tmdb.repository.utils.Resource
+import com.showoffs.tmdb.service.dashboard.DashboardService
+import com.showoffs.tmdb.service.moviedetails.MovieDetailsService
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -39,6 +41,7 @@ class API {
     companion object {
         private val api = API()
         val dashboardService: DashboardService = api.retrofit.create(DashboardService::class.java)
+        val movieDetailService = api.retrofit.create(MovieDetailsService::class.java)
 
         inline fun <reified RequestType> hitApi(
                 hit: LiveData<ApiResponse<RequestType>>

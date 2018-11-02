@@ -1,7 +1,8 @@
-package com.showoffs.tmdb.repository
+package com.showoffs.tmdb.repository.dashboard
 
 import androidx.lifecycle.LiveData
 import com.showoffs.tmdb.domain.MovieResponse
+import com.showoffs.tmdb.repository.utils.Resource
 import com.showoffs.tmdb.service.API
 
 class DashboardRepo {

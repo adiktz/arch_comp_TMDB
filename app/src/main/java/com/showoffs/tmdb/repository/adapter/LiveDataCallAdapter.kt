@@ -1,7 +1,7 @@
 package com.showoffs.tmdb.repository.adapter
 
 import androidx.lifecycle.LiveData
-import com.showoffs.tmdb.repository.ApiResponse
+import com.showoffs.tmdb.repository.utils.ApiResponse
 import retrofit2.Call
 import retrofit2.CallAdapter
 import retrofit2.Callback

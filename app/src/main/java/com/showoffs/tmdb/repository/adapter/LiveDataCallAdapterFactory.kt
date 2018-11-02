@@ -7,7 +7,7 @@ package com.showoffs.testapplication.util
  *  This file is a part of the project 'TestApplication'
  */
 import androidx.lifecycle.LiveData
-import com.showoffs.tmdb.repository.ApiResponse
+import com.showoffs.tmdb.repository.utils.ApiResponse
 import com.showoffs.tmdb.repository.adapter.LiveDataCallAdapter
 import retrofit2.CallAdapter
 import retrofit2.CallAdapter.Factory

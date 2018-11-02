@@ -7,13 +7,13 @@ import android.view.MenuItem
 import com.showoffs.tmdb.R
 import com.showoffs.tmdb.common.replace
 
-import kotlinx.android.synthetic.main.activity_dashboar.*
+import kotlinx.android.synthetic.main.activity_dashboard.*
 
 class Dashboard : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dashboar)
+        setContentView(R.layout.activity_dashboard)
         setSupportActionBar(toolbar)
 
         if (savedInstanceState == null)

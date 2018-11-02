@@ -5,9 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import com.showoffs.tmdb.domain.Movie
-import com.showoffs.tmdb.repository.DashboardRepo
+import com.showoffs.tmdb.repository.dashboard.DashboardRepo
 import com.showoffs.tmdb.domain.MovieResponse
-import com.showoffs.tmdb.repository.Resource
+import com.showoffs.tmdb.repository.utils.Resource
 
 
 class DashboardViewModel : ViewModel() {
